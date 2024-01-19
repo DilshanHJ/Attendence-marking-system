@@ -1,0 +1,14 @@
+<%- include('partials/head') %>
+
+<h1>Check Attendence</h1>
+<form action="/attendence/check" method="post">
+	<label for="subjectcode">Subject code:</label>
+	<input type="text" name="subjectcode" id="subjectcode" />
+	<label for="index">Start From:</label>
+	<input type="datetime-local" name="starttime" id="starttime" />
+	<label for="index">To the date:</label>
+	<input type="datetime-local" name="endtime" id="endtime" />
+	<button type="submit">Get Attendence Sheet</button>
+</form>
+
+<%- include('partials/head') %>

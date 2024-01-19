@@ -1,0 +1,23 @@
+<%- include('partials/head') %>
+
+<h1> Attendence Sheet <%= att[0].subjectcode %></h1>
+<form>
+	<table>
+            <tr>
+                  <th>Index Number</th>
+                  <th>Password</th>
+                  <th>Attended Time</th>
+            </tr>
+            <% for(let i=0; i<att.length; i++){ %>
+
+                  <tr>
+                        <td><%= att[i].indexnumber %></td>
+                        <td><%= att[i].password %></td>
+                        <td><%= att[i].attendeddate %></td>
+                  </tr>
+                  
+            <% } %>
+      </table>
+</form>
+
+<%- include('partials/head') %>

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.text-head {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+.text-body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+body {
+	padding: 20px;
+}
+form {
+	padding: 20px;
+	display: flex;
+	border: 2px solid gray;
+	border-radius: 10px;
+	flex-direction: column;
+
+	background-color: aliceblue;
+}
+label {
+	font-weight: 500;
+	color: gray;
+}
+input {
+	padding: 5px;
+	border: none;
+	border-bottom: solid 1px rgb(109, 109, 109);
+	font-size: 16px;
+	background-color: aliceblue;
+	margin-bottom: 30px;
+	color: gray;
+}
+input:focus-visible {
+	outline: none;
+	border-bottom: solid 2px rgb(119, 150, 165);
+}
+button {
+	padding: 10px;
+	font-size: 16px;
+	background-color: rgb(156, 255, 255);
+	border-radius: 10px;
+	border: none;
+	color: gray;
+}
+
+button:hover {
+	background-color: rgb(85, 255, 255);
+	color: rgb(194, 194, 194);
+}
+
+main.home{
+      display: flex;
+      flex-direction: column;
+}
+
+main.home ul li{
+      padding: 10px 0px;
+}
+
+form table tr th{
+      background-color: black;
+      color: aliceblue;
+      padding: 5px;
+}
+form table tr td{
+      text-align: center;
+      border: solid 1px black;
+      padding: 5px;
+
+}
+
